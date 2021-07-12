@@ -60,6 +60,11 @@ object insfTransformation {
     filteringQuery
 
   }
+  //Demo for Github
+  def showcaseDemo(df:DataFrame):DataFrame ={
+    df
+  }
+
   def filteringStaging(df:DataFrame):DataFrame={
 
     df.createOrReplaceTempView("exceptionFile")
